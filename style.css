@@ -1,0 +1,450 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.header {
+  background-image: url(img/background.jpg);
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 40px;
+}
+
+.navbar {
+  padding: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav {
+  display: flex;
+}
+
+.nav-1,
+.nav-2 {
+  display: flex;
+  align-items: center;
+}
+
+.nav-1 {
+  margin-right: 90px;
+}
+
+.logo h2 {
+  color: #fff;
+}
+
+.ggmail {
+  cursor: pointer;
+}
+
+.gmail {
+  cursor: pointer;
+}
+
+nav p {
+  color: #fff;
+  font-size: 14px;
+}
+
+nav h1 {
+  margin-right: 43px;
+  font-size: 33px;
+  color: #fff;
+}
+
+nav img {
+  margin-right: 30px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.header .row {
+  margin-top: 100px;
+}
+
+.header .row h1 {
+  font-size: 60px;
+  color: #fff;
+  font-weight: 500;
+  line-height: 80px;
+}
+
+.header .row h1 span {
+  color: #54e4ba;
+}
+
+.btn {
+  padding: 8px 40px;
+  background: #54e4ba;
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  margin-top: 37px;
+  margin-bottom: 40px;
+}
+
+.col-2-head {
+  flex-basis: 55%;
+}
+
+.col-2-head-2 {
+  flex-basis: 45%;
+
+  min-width: 300px;
+}
+
+.header-form {
+  background: #eceefc;
+  padding: 35px 25px;
+  text-align: center;
+}
+
+form input {
+  display: block;
+  width: 100%;
+  padding: 13px 15px;
+  margin-bottom: 20px;
+  border: none;
+}
+
+form input:focus {
+  outline: none;
+}
+
+.large {
+  padding: 45px 15px;
+}
+
+.btn2 {
+  margin-top: 10px;
+  padding: 8px 60px;
+  margin-bottom: 0;
+}
+
+.services {
+  padding: 77px 0 70px;
+}
+
+.services h1 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 40px;
+}
+
+.services h1 span {
+  color: #54e4ba;
+}
+
+.services p {
+  text-align: center;
+  max-width: 900px;
+  font-size: 15px;
+  margin-top: 10px;
+  color: #555;
+  padding-bottom: 30px;
+}
+
+.col-3 {
+  flex-basis: 32%;
+  min-width: 250px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+.col-3-img {
+  width: 100%;
+  height: 180px;
+  border: 3px solid #54e4ba;
+  text-align: center;
+}
+
+.col-3-img img {
+  width: 90px;
+  text-align: center;
+  padding-top: 36px;
+}
+
+.col-3 h3 {
+  margin-top: 20px;
+  font-weight: 500;
+  margin-bottom: 17px;
+}
+
+.col-2 {
+  flex-basis: 50%;
+  min-width: 300px;
+}
+
+.about {
+  background-image: url(img/back-2.jpg);
+}
+
+.about h1 {
+  color: #fff;
+  font-weight: 400;
+  padding-bottom: 25px;
+  font-size: 43px;
+}
+
+.about h1 span {
+  color: #54e4ba;
+}
+
+.about p {
+  color: #fff;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 24px;
+  max-width: 380px;
+}
+
+.col3 {
+  background: #54e4ba;
+  width: 100%;
+  padding: 25px;
+}
+
+.col3 img {
+  max-width: 100%;
+}
+
+.choose {
+  padding: 77px 0 150px;
+}
+
+.choose h1 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 40px;
+}
+
+.choose h1 span {
+  color: #54e4ba;
+}
+
+.choose .pi {
+  text-align: center;
+  max-width: 900px;
+  font-size: 15px;
+  margin-top: 10px;
+  color: #555;
+  padding-bottom: 30px;
+}
+
+.row-choose {
+  border: 3px solid #54e4ba;
+  margin-top: 50px;
+  padding-top: 60px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.col-3-choose {
+  flex-basis: 30%;
+  text-align: center;
+  min-width: 200px;
+}
+
+.col-3-choose img {
+  width: 47px;
+  padding-bottom: 10px;
+}
+
+.col-3-choose h3 {
+  font-weight: 500;
+  margin-bottom: 7px;
+}
+
+.col-3-choose p {
+  max-width: 220px;
+  text-align: center;
+  margin: 0 auto;
+  color: #555;
+  padding-bottom: 30px;
+}
+
+.testimonial {
+  background: #54e4ba;
+  padding: 40px 0 60px;
+  text-align: center;
+  position: relative;
+}
+
+.testimonial h1 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 40px;
+  color: #fff;
+  padding-bottom: 30px;
+}
+
+.testimonial img {
+  width: 130px;
+  height: 130px;
+  border-radius: 25px;
+  text-align: center;
+}
+
+.testimonial h2 {
+  color: #fff;
+  font-weight: 400;
+  padding-top: 10px;
+  padding-bottom: 25px;
+}
+
+.testimonial p {
+  max-width: 760px;
+  color: #fff;
+  font-size: 14px;
+  line-height: 26px;
+  font-weight: 300;
+  text-align: center;
+  margin: 0 auto;
+  padding-bottom: 40px;
+}
+
+.testimonial .scroll {
+  display: flex;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.scroll-1 {
+  width: 36px;
+  height: 12px;
+  background: #fff;
+  border-radius: 5px;
+}
+
+.active {
+  background: #3d49d4;
+}
+
+.footer {
+  background: #3d49d4;
+  padding: 70px 0 130px;
+}
+
+.footer .footerh {
+  text-align: center;
+  font-weight: 500;
+  font-size: 35px;
+  color: #fff;
+  padding-bottom: 20px;
+}
+
+.footer h1 span {
+  color: #54e4ba;
+}
+
+.footer h5 {
+  text-align: center;
+  color: #fff;
+  margin: 0 auto;
+  font-weight: 400;
+  padding-bottom: 15px;
+}
+
+.footer-input {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.footer-input input {
+  max-width: 410px;
+  padding: 14px 0;
+  padding-left: 15px;
+  padding-right: 170px;
+  border: none;
+  outline: none;
+}
+
+.footer-btn {
+  padding: 13px 32px;
+  background: #54e4ba;
+  text-decoration: none;
+  color: #fff;
+  border: none;
+  outline: none;
+  display: inline-block;
+  font-size: 11px;
+}
+
+.copyrigth {
+  padding: 10px 0;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  nav {
+    display: block;
+  }
+
+  .nav-1 {
+    margin: 0;
+  }
+
+  .footer-input input {
+    max-width: 410px;
+    padding: 14px 0;
+    padding-left: 15px;
+
+    border: none;
+    outline: none;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .header .row h1 {
+    font-size: 45px;
+    color: #fff;
+    font-weight: 500;
+    line-height: 60px;
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .col-2-head .btn {
+    text-align: center;
+  }
+
+  .col-3-choose {
+    flex-basis: 100%;
+  }
+
+  .col-3 {
+    flex-basis: 100%;
+  }
+
+  .about p {
+    margin-bottom: 20px;
+  }
+
+  .about {
+    padding: 40px 0;
+  }
+}
